@@ -1,6 +1,5 @@
 import { registerBlockType } from '@wordpress/blocks';
-import './style.scss';
-import Edit from './edit';
+import edit from './edit';
 
 /**
  * Every block starts by registering a new block type definition.
@@ -8,7 +7,7 @@ import Edit from './edit';
  * @see https://developer.wordpress.org/block-editor/developers/block-api/#registering-a-block
  */
 export default registerBlockType( 'tw2113/blogroll-block', {
-	edit: Edit,
+	edit,
 	save: () => {
 		return null;
 	},
