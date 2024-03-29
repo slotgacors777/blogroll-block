@@ -5,7 +5,9 @@
 	"author": "Michael Beckwith",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
-		"blogroll"
+		"blogroll",
+		"roll",
+		"links"
 	],
 	"homepage": "https://michaelbox.net",
 	"repository": "https://github.com/tw2113/blogroll-block/issues",
