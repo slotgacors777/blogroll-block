@@ -18,7 +18,7 @@
 		"@wordpress/dependency-extraction-webpack-plugin": "^5",
 		"@wordpress/i18n": "^4",
 		"@wordpress/server-side-render": "^4",
-		"npm-check-updates": "^16.14.15"
+		"npm-check-updates": "^16.14.18"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^27"
@@ -30,6 +30,7 @@
 		"lint:js": "wp-scripts lint-js",
 		"start": "wp-scripts start",
 		"packages-update": "wp-scripts packages-update",
-		"lint:pkg-json": "wp-scripts lint-pkg-json"
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"plugin-zip": "wp-scripts plugin-zip"
 	}
 }
