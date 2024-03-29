@@ -16,13 +16,13 @@ function blogroll_block_init() {
 	register_block_type(
 		__DIR__,
 		[
-			'render_callback' => __NAMESPACE__ . '\blogroll_block_construct_bookmarks_list',
+			'render_callback' => __NAMESPACE__ . '\construct_bookmarks_list',
 		]
 	);
 }
 add_action( 'init', __NAMESPACE__ . '\blogroll_block_init' );
 
-function blogroll_block_construct_bookmarks_list( $attributes ) {
+function construct_bookmarks_list( $attributes ) {
 	$args = [];
 
 	$list_type = ! empty( $attributes['list_type'] ) ? esc_html( $attributes['list_type'] ) : 'ul';
