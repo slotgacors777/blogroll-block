@@ -26,6 +26,7 @@
 		"@wordpress/scripts": "^27"
 	},
 	"scripts": {
+		"watch": "wp-scripts start",
 		"build": "wp-scripts build",
 		"format:js": "wp-scripts format-js",
 		"lint:css": "wp-scripts lint-style",
