@@ -3,7 +3,10 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
+$blogroll-blue: #0072c6;
+$blogroll-orange: #fe6a00;
+$blogroll-white: #ffffff;
 
 .wp-block-tw2113-blogroll-block {
-	border: 1px dotted #0072c6;
+	border: 1px dotted $blogroll-blue;
 }
